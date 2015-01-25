@@ -1,3 +1,4 @@
+## Javier De la Vega Magaña
 makeCacheMatrix = function(x = matrix()) {
    m = NULL
    set = function(y) {
@@ -24,5 +25,5 @@ cacheSolve = function(x, ...) {
       x$setmatrix(m)
       m
    }else
-      print("No se puede obtener inversa")
+      print("No se puede obtener matriz inversa, proporcione otra matriz")
 }
